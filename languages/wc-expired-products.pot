@@ -1,0 +1,253 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Expired Products\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Jul 27 2016 17:59:00 GMT-0300 (Hora estándar de "
+"Argentina)\n"
+"POT-Revision-Date: Tue Aug 23 2016 09:54:23 GMT-0300 (Hora estándar de "
+"Argentina)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../admin/partials/wc-expired-products-admin-display.php:18
+msgid "You do not have sufficient pilchards to access this page."
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:47
+msgid "Expire products"
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:50
+msgid "The products expire on:"
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:52
+msgid "Only days in numbers: for a month, enter \"30\""
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:55
+msgid "Notifications"
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:56
+msgid "All notifications are for the author of the product"
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:59
+msgid "Notify previously."
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:62
+msgid "Notify 5 days before the product expires."
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:67
+msgid "Notify now"
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:70
+msgid "Notify when the product has expired."
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:75
+msgid "Notify after"
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:78
+msgid "Remember (7 days later) that the product has expired."
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:82
+msgid "Cleaning"
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:83
+msgid "These options will keep your database cleaner"
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:86
+msgid "Delete product"
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:89
+msgid "Delete the product if it has not been updated 14 days after it has expired."
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:92
+msgid "Delete product images"
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:95
+msgid "Also delete images?"
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:100
+msgid "Save changes"
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:105
+msgid "It is my first installation of the plugin."
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:113
+msgid ""
+"If you just install this plugin there's something you should know. Here we "
+"are playing with <code>post_modified</code> value of the database. The "
+"plugin see the difference between the date of moficiacion the product and "
+"the today's date, if that difference is equal to the value you entered above,"
+" the corresponding function is executed."
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:115
+msgid ""
+"What happens if I have products created. They change all to draft status? "
+"Yes."
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:116
+msgid ""
+"To avoid this we should change the date of modification of all products to "
+"today's date. This task can make you, simply by clicking the button below :)."
+msgstr ""
+
+#: ../admin/partials/wc-expired-products-admin-display.php:120
+msgid "Configure all products"
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:93
+msgid ""
+"WC Expired Products requires <a href=\"https://wordpress."
+"org/plugins/woocommerce/\" target=\"_blank\" >WooCommerce</a> installed and "
+"activated to run."
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:181
+msgid "Settings"
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:267
+#, php-format
+msgid "Your product \"%1$s\" has changed the status to Draft"
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:269 ../admin/class-wc-expired-
+#: products-admin.php:333 ../admin/class-wc-expired-products-admin.php:387
+#, php-format
+msgid "Hi %1$s,"
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:270
+#, php-format
+msgid ""
+"<br><br>it's been more than %1$s days and has not updated the publication "
+"period of your product <strong>\"%2$s\"</strong>."
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:271
+#, php-format
+msgid ""
+"<br><br>Your product is now in draft, please login to <a href=\"%1$s\">your "
+"account</a> and renew the period."
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:331
+#, php-format
+msgid "Your product \"%1$s\" is about to expire."
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:334
+#, php-format
+msgid "<br><br>Your product <strong>\"%1$s\"</strong> will expire in 5 days."
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:335
+#, php-format
+msgid ""
+"<br><br>We recommend that you enter <a href=\"%1$s\">your account</a> and "
+"update the publication, and will be visible on the site for %2$s days more."
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:385
+#, php-format
+msgid "Remember that your product \"%1$s\" has expired"
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:388
+#, php-format
+msgid "<br><br>Your product <strong>\"%1$s\"</strong> it has expired 7 days ago"
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:389
+msgid ""
+"<br><br>You can do two things: update the product to be visible on the site, "
+"or do nothing."
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:392
+msgid ""
+"If you do nothing, the product will be removed 7 days after this "
+"notification."
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:505
+msgid "Your products have been updated!"
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:510
+msgid "There was an error or no products to modify."
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:518
+msgid "Expiration Day"
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:534
+#, php-format
+msgid "in %d days"
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:537
+msgid "Today"
+msgstr ""
+
+#: ../admin/class-wc-expired-products-admin.php:540
+#, php-format
+msgid "%d days ago"
+msgstr ""
+
+#. Name of the plugin
+msgid "WC Expired Products"
+msgstr ""
+
+#. URI of the plugin
+msgid "devacid.com/plugins"
+msgstr ""
+
+#. Description of the plugin
+msgid "Defines a expiration time to products and send an email notifying the author."
+msgstr ""
+
+#. Author of the plugin
+msgid "Nicolas Galdo"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "nicogaldo.com.ar"
+msgstr ""
